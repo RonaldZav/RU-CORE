@@ -1,0 +1,40 @@
+{
+  "name": "ru-core",
+  "version": "1.0.0",
+  "description": "custom discord bot core",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonaldZav/RU-CORE"
+  },
+  "keywords": [],
+  "author": "ronaldzav",
+  "license ": "GPL",
+  "bugs": "https://github.com/RonaldZav",
+  "homepage": "https://github.com/RonaldZav/RU-CORE",
+  "dependencies": {
+    "@discordjs/rest": "1.0.0",
+    "chalk": "4.1.2",
+    "cheerio": "1.0.0-rc.12",
+    "console": "0.7.2",
+    "delay": "5.0.0",
+    "discord-html-transcripts": "3.1.3",
+    "discord.js": "14.12.1",
+    "dotenv": "10.0.0",
+    "jquery": "3.6.3",
+    "js-yaml": "4.1.0",
+    "moment": "2.29.4",
+    "moment-duration-format": "2.3.2",
+    "jsonfile": "6.1.0",
+    "ms": "2.1.3",
+    "node-fetch": "2.6.9",
+    "node-superfetch": "0.2.3",
+    "nodemon": "2.0.20",
+    "quick.db": "9.0.6",
+    "systeminformation": "5.9.13"
+  }
+}
