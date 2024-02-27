@@ -1,10 +1,5 @@
 const { Client, Collection, GatewayIntentBits, Partials } = require("discord.js");
-console.log(`
-.
-.           Developed by RonaldZav
-.       Redistribution is not permitted.
-.
-`);
+eval(Buffer.from('Y29uc29sZS5sb2coIlxuLlxuLiAgICAgICAgICAgICAgIC0gUlUgQ09SRSAtXG4uICAgICAgICAgIERldmVsb3BlZCBieSBSb25hbGRaYXZcbi5cbiIpOw==', 'base64').toString());
 
 class RonaldZav extends Client {
   constructor() {

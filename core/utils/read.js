@@ -1,5 +1,6 @@
 const fs = require('fs');
 const yaml = require('js-yaml');
+const { log } = require("../utils/logger");
 
 module.exports = class ymlToJson {
 	static readYML (path) {
@@ -9,7 +10,7 @@ module.exports = class ymlToJson {
             return datosJSON;
 
         } catch (error) { 
-            logger.log(`Error reading data from ${path}:`, "error"); console.log(error); }
+            log(`Error reading data from ${path}:`, "error"); console.log(error); }
 
 	}
 };

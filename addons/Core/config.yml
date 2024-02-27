@@ -1,0 +1,8 @@
+# Settings:
+embedColor: "#ff80f4"
+
+# Messages:
+avatarCommandTitle: "**<username>'s avatar**" # You can use <username> or <tag>.
+outPermsBot: "I don't have enough permissions to do this!"
+outPermsUser: "You don't have enough permissions to do this!"
+internalError: "An error occurred! Please notify technical support"
