@@ -29,6 +29,7 @@ class RonaldZav extends Client {
 
     this.slashCommands = new Collection();
     this.config = require("./config.js");
+    this.db = require("./utils/storage.js");
     this.prefix = this.config.prefix;
     this.aliases = new Collection();
     this.commands = new Collection();
